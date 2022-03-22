@@ -1,0 +1,21 @@
+body {
+    background-color: #021613;
+    font-family: "poppins";
+  }
+  
+  h1 {
+    margin-left: auto;
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 2.8em;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  .register {
+    width: 500px;
+    margin: auto;
+  }
+  
+  
