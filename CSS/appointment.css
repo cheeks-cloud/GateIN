@@ -23,3 +23,7 @@ p{
   font-weight: bolder;
   font-size: larger;
 }
+
+.form-group{
+  margin: 1.3%;
+}
