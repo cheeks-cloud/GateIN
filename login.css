@@ -59,3 +59,20 @@ body {
     position:relative;
     top:3px;
 }
+
+/*To remove the outline that appears on clicking the input textbox*/
+input:focus {
+  outline: none;
+}
+
+/* To format the placeholder text color */
+::-webkit-input-placeholder {
+   color: #ecf0f1;
+}
+
+:-ms-input-placeholder {  
+   color: #ecf0f1;  
+}
+label{
+    color: #ffff;
+}
