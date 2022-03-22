@@ -57,3 +57,23 @@ body {
       top:3px;
   }
   
+
+  input:focus {
+    outline: none;
+  }
+  
+  ::-webkit-input-placeholder {
+     color: #ecf0f1;
+  }
+  
+  :-ms-input-placeholder {  
+     color: #ecf0f1;  
+  }
+  label{
+      color: #ffff;
+  }
+  .footer{
+    background-color: #50D284;
+    margin-top: 10%;
+  }
+  
