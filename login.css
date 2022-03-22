@@ -2,6 +2,17 @@ body {
     background-color: #021613;
     font-family: "poppins";
   }
+
+  .navbar{
+    background-color:#50D284 ;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .navbar-brand{
+    font-weight: 900;
+    font-size: larger;
+  }
+  
   
   h1 {
     margin-left: auto;
