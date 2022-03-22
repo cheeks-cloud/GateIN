@@ -76,3 +76,7 @@ input:focus {
 label{
     color: #ffff;
 }
+.footer{
+  background-color: #50D284;
+  margin-top: 10%;
+}
