@@ -1,0 +1,9 @@
+.navbar{
+  background-color:#50D284 ;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.navbar-brand{
+  font-weight: 900;
+  font-size: larger;
+}
