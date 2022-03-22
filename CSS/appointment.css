@@ -1,3 +1,8 @@
+body{
+  background-color: #021613F0;
+  color: antiquewhite;
+}
+
 .navbar{
   background-color:#50D284 ;
   padding-left: 30px;
@@ -5,5 +10,16 @@
 }
 .navbar-brand{
   font-weight: 900;
+  font-size: larger;
+}
+
+p{
+  border: #50D284;
+  border-width: 1%;
+  background-color: #50D284;
+  margin: 2%;
+  text-align: center;
+  padding: 2%;
+  font-weight: bolder;
   font-size: larger;
 }
