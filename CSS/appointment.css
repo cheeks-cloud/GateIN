@@ -3,7 +3,7 @@ body{
   color: antiquewhite;
 }
 
-.navbar{
+.navbar,footer{
   background-color:#50D284 ;
   padding-left: 30px;
   padding-right: 30px;
@@ -26,4 +26,12 @@ p{
 
 .form-group{
   margin: 1.3%;
+}
+
+.form{
+  margin-bottom: 5%;
+}
+
+.car{
+  display: none;
 }
