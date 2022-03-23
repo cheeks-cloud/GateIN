@@ -1,10 +1,12 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap");
 *{
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  /* background-color:#021613 ; */
+  font-family: "Poppins", sans-serif
+  
 }
-
 
 .navbar{
   background-color:#50D284 !important;
