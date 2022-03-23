@@ -25,6 +25,10 @@
 .more-info {
   margin-top: 20%;
 }
+.col-md-6{
+  padding-left: 20px;
+  padding-top: 20px;
+}
 
 .footer {
   background-color: #50d284;
@@ -33,11 +37,14 @@ body {
   background-color: #0f221f;
   color: #fff;
 }
-input {
+ .form-control {
   border: #50d284 2px solid;
   background-color: #0f221f;
 }
 
+form{
+  padding-right: 20px;
+}
 .in-touch {
   color: #50d284;
 }
