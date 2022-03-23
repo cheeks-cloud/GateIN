@@ -29,9 +29,20 @@ p{
 }
 
 .form{
-  margin-bottom: 5%;
+  margin-bottom: 2%;
 }
 
 .car{
   display: none;
+}
+
+.btn{
+  background-color: #50D284;
+  color: white;
+  margin: 1%;
+  
+}
+.button{
+  margin-left: 30%;
+  margin-top: 2%;
 }
