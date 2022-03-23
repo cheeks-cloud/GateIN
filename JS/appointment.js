@@ -11,4 +11,23 @@ $(document).ready(function(){
       }
       })
 
+      $('#book').click(function(){
+        var fname =$('#fullName').val()
+        var id= $('#ID').val()
+        var date= $('#date').val()
+        var timeIn=$('#timeIn').val()
+        var timeOut=$('#timeOut').val()
+        var car=$('#numberPlate').val()
+        
+
+      })
+
+
+
+
+
+
+
+
+
 })
