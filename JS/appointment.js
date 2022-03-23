@@ -7,8 +7,8 @@ $(document).ready(function(){
         $('.car').show();
       }
       else{
-        return;
+        $('.car').hide();
       }
       })
-      
+
 })
