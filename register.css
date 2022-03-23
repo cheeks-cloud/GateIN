@@ -1,0 +1,80 @@
+body {
+    background-color: #021613;
+    font-family: "poppins";
+  }
+  
+  h1 {
+    margin-left: auto;
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 2.8em;
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  .register {
+    width: 500px;
+    margin: auto;
+  }
+  .formStyle { 
+    background-color:#021613;
+    padding: 20px; 
+    width: 400px; 
+    margin-bottom: 20px; 
+    border-bottom-width: 1px; 
+    border-bottom-style: solid; 
+    border-bottom-color: #ecf0f1; 
+    border-top-style: none; 
+    border-right-style: none; 
+    border-left-style: none; 
+    font-size: 1em;
+    color: #ffffff;
+  }
+  
+  .formButton {
+      background-color:rgba(91, 234, 148, 0.76);
+      display:inline-block;
+      color:black;
+      font-size:20px;
+      font-weight: 500;
+      padding:6px 24px;
+      margin-top: 15px;
+      margin-right: 60px;
+      text-decoration:none;
+      width: 300px;
+      text-align: center;
+      border-radius: 5px 15px 5px 15px;
+  }
+  
+  .formButton:hover {
+      background-color: #27ae60;
+    color:#ffffff;
+  }
+  
+  .formButton:active {
+      position:relative;
+      top:3px;
+  }
+  
+
+  input:focus {
+    outline: none;
+  }
+  
+  ::-webkit-input-placeholder {
+     color: #ecf0f1;
+  }
+  
+  :-ms-input-placeholder {  
+     color: #ecf0f1;  
+  }
+  label{
+      color: #ffff;
+  }
+  .footer{
+    background-color: #50D284;
+    margin-top: 10%;
+    text-align: center;
+  }
+  
