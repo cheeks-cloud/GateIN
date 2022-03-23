@@ -75,7 +75,7 @@
   background-color: #50D284;
 
 }
-/* @media screen and (max-width: 740px) {
+@media screen and (max-width: 740px) {
   .body{
     flex-direction: column;
   }
@@ -91,4 +91,4 @@
     left: 30%;
   }
   
-} */
+} 
