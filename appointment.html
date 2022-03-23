@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>GateIN</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="CSS/appointment.css">
+  
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+          <a href="#" class="navbar-brand">GateIN</a>
+          </a>
+          <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+              <div class="navbar-nav ms-auto ">
+                  <a href="#" class="nav-item nav-link active">Home</a>
+                  <a href="#" class="nav-item nav-link active">About Us</a>
+                  <a href="#" class="nav-item nav-link active">Contact</a>   
+              </div>
+          </div>
+      </div>
+    </nav>
+  
+    <div class="container form">
+      <p class="top">To book an appointment,please fill in the appointee's information below</p>
+      <form>
+        <div class="form-group row">
+          <label for="fullName" class="col-sm-2 col-form-label">Full Names</label>
+          <div class="col-sm-7">
+           <input type="text" class="form-control" id="fullName" placeholder="Full Names">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="ID" class="col-sm-2 col-form-label">ID number</label>
+          <div class="col-sm-7">
+           <input type="number" class="form-control" id="ID" placeholder="ID number">
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <label for="date" class="col-sm-2 col-form-label">Appointment date</label>
+          <div class="col-sm-7">
+           <input type="date" class="form-control" id="date" placeholder="Appointment date">
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <label for="timeIn" class="col-sm-2 col-form-label">Time in</label>
+          <div class="col-sm-7">
+           <input type="time" class="form-control" id="timeIn" placeholder="Time in">
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <label for="timeOut" class="col-sm-2 col-form-label">Time out</label>
+          <div class="col-sm-7">
+           <input type="time" class="form-control" id="timeOut" placeholder=" Time out">
+          </div>
+        </div>
+
+        <fieldset class="form-group">
+          <div class="row">
+            <legend class="col-form-label col-sm-2 pt-0">Do they own a car? </legend>
+            <div class="col-sm-7">
+              <div class="form-check ">
+                <input class="form-check-input radio" type="radio" name="gridRadios" id="gridRadios1" value="yes">
+                <label class="form-check-label" for="gridRadios1">
+                  Yes
+                </label>
+              </div>
+              <div class="form-check ">
+                <input class="form-check-input radio" type="radio" name="gridRadios" id="gridRadios2" value="no">
+                <label class="form-check-label" for="gridRadios2">
+                  No
+                </label>
+              </div>
+              
+            </div>
+          </div>
+        </fieldset>
+
+        <div class="form-group row car">
+          <label for="numberPlate" class="col-sm-2 col-form-label">Car number plate</label>
+          <div class="col-sm-7">
+           <input type="text" class="form-control" id="numberPlate" placeholder="Car number plate">
+          </div>
+        </div>
+
+        <div class="button">
+        <button id="book" class="btn">Book Appointment</button>
+        <button id="cancel"  class="btn">Cancel Appointment</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="container-fluid footer">
+      <p class="text-center">GateIN 2022 All Rights Reserved</p>
+      <div class="col-md text-center socials">
+        <a><i class="bi-facebook"></i></a>
+        <a><i class="bi-instagram"></i></a>
+        <a><i class="bi-twitter"></i></a>
+        <a><i class="bi-youtube"></i></a>
+        <a><i class="bi-linkedin"></i> </a>
+    </div>
+    </div>
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="JS/appointment.js"></script>
+  
+  </body>
+</html>
