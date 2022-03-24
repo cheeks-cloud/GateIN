@@ -1,27 +1,61 @@
+function signUp (e) {
+	// prevent refresh
+	e.preventDefault()
 
-
-function signUp() {
 	var mail = document.getElementById("email").value;
 	var name = document.getElementById("name").value;
     var pno = document.getElementById("pnum").value;
     var vno = document.getElementById("vno").value;
     var address = document.getElementById("address").value;
 	var idno = document.getElementById("idno").value;
-    var gender = document.getElementById("gender").checked;
-    var dob = document.getElementById("dob").value;
+    var gender = document.getElementById("select-gender").value;
+	var dob = document.getElementById("dob").value;
 
-
-	if (mail == "" || name == "" || pno == ""  || vno == "" || address == "" || idno == ""||gender == "" || dob == "" ) {
-		alert("Please fill the required fields")
-		return false;
+	function User (email, name, tel, vno, address, idno, gender, dob) {
+		this.email = email
+		this.name = name
+		this.tel = tel
+		this.vno = vno
+		this.address = address
+		this.idno = idno
+		this.gender = gender
+		this.dob = dob
+		this.pin = this.generatePin()
 	}
 
-	else if (pno.length < 10) {
-		alert( "Your phone number must be 10 characters")
-		return false;
+	User.prototype.generatePin = function () {
+		return Math.floor(Math.random() * 10000)
 	}
-	else {
-		alert("Successfully signed up");
-		return true;
+
+	const newUser = new User(mail, name, pno, vno, address, idno, gender, dob)
+	console.log(newUser)
+
+	// Send to localStorage
+	function storeData (userInstance) {
+		if (window.localStorage) {
+			localStorage.setItem('user', JSON.stringify(userInstance))
+		} else {
+			alert("Browser does't support localstorage")
+		}
 	}
+	//call storedata funtion and pass the user object
+	storeData(newUser)
 }
+
+
+
+
+
+// if (mail == "" || name == "" || pno == ""  || vno == "" || address == "" || idno == ""||gender == "" || dob == "" ) {
+// 	alert("Please fill the required fields")
+// 	return false;
+// }
+
+// else if (pno.length < 10) {
+// 	alert( "Your phone number must be 10 characters")
+// 	return false;
+// }
+// else {
+// 	alert("Successfully signed up");
+// 	return true;
+// }
