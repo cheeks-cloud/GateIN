@@ -12,6 +12,9 @@
     color: white;
     
 }
+p{
+    font-size: small;
+}
 
 .navbar {
     background-color: #50D284;
