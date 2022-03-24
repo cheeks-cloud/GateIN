@@ -12,6 +12,7 @@ body {
     font-size: larger;
   }
   
+  
   h1 {
     margin-left: auto;
     margin-top: 50px;
@@ -65,7 +66,9 @@ body {
       position:relative;
       top:3px;
   }
-  
+  input[type='radio']:after{
+    color: wheat;
+  }
 
   input:focus {
     outline: none;
@@ -83,7 +86,9 @@ body {
   }
   .footer{
     background-color: #50D284;
-    margin-top: 10%;
+    margin-top: 6%;
     text-align: center;
   }
-  
+  #gender{
+    color: #ffffff;
+  }

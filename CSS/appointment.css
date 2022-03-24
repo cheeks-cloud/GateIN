@@ -1,0 +1,78 @@
+body{
+  background-color: #021613F0;
+  color: antiquewhite;
+}
+
+.navbar{
+  background-color:#50D284 ;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.navbar-brand{
+  font-weight: 900;
+  font-size: larger;
+}
+
+.top{
+  margin: 2%;
+  text-align: center;
+  padding: 1%;
+  font-weight: 300;
+  font-size: x-large;
+  border: #50d284 2px solid;
+  background-color: #0f221f;
+  width: 58%;
+  margin-left: 20%;
+  border-radius: 4%;
+}
+
+.form-group{
+  margin: 1.3%;
+}
+
+.form{
+  margin-bottom: 2%;
+}
+
+.form-control {
+  border: #50d284 2px solid;
+  background-color: #0f221f;
+  color: white;
+}
+
+#car{
+  display: none;
+}
+
+.btn{
+  background-color: #50D284;
+  color: white;
+  margin: 1%;
+  
+}
+.button{
+  margin-left: 30%;
+  margin-top: 2%;
+}
+
+.footer{
+  background-color: #50D284;
+  color: #0f221f;
+  position: absolute;
+  right: 0;bottom:0;left:0;
+ }
+
+ .info{
+   font-size: larger;
+   margin-bottom: 2%;
+   margin-left: 22%;
+
+ }
+ 
+ #cancel{
+  border: #50d284 2px solid;
+  background-color: #0f221f;
+ }
+ #cancel:hover{
+   color: white;
+ }
