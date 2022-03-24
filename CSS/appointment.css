@@ -3,7 +3,7 @@ body{
   color: antiquewhite;
 }
 
-.navbar,footer{
+.navbar{
   background-color:#50D284 ;
   padding-left: 30px;
   padding-right: 30px;
@@ -13,7 +13,7 @@ body{
   font-size: larger;
 }
 
-p{
+.top{
   border: #50D284;
   border-width: 1%;
   background-color: #50D284;
@@ -32,6 +32,11 @@ p{
   margin-bottom: 2%;
 }
 
+.form-control {
+  border: #50d284 2px solid;
+  background-color: #0f221f;
+}
+
 .car{
   display: none;
 }
@@ -45,4 +50,10 @@ p{
 .button{
   margin-left: 30%;
   margin-top: 2%;
+}
+
+.footer{
+  background-color: #50D284;
+ 
+  
 }
