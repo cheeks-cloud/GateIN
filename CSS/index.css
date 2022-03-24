@@ -50,7 +50,7 @@ h5{
 .card-deck{
   display: flex;
   justify-content:space-evenly;
-  padding-top: 60px;
+  padding-top: 70px;
 }
 .begin{
   box-shadow: 10px 5px 5px #50D284;
@@ -75,6 +75,39 @@ h5{
   left: 42%;
   margin-bottom: 50px;
   margin-top: 20px;
+}
+.lastie{
+  padding-top: 20px;
+}
+.heading{
+  background-color: #021613;
+  padding-top: 20px;
+  color: wheat;
+  text-align: center;
+}
+.heading:hover{
+  color: #50D284;
+}
+.heading span{
+  display: inline-block;
+  position: relative;
+}
+
+.heading span:before,
+.heading span:after {
+  content:"";
+  position: absolute;
+  border: 2px solid #50D284;
+  bottom: 0;
+  width: 600px;
+}
+.heading span:before {
+  right:30%;
+  margin-right: 10px;
+}
+.heading span:after {
+  left: 30%;
+  margin-left: 10px;
 }
 
 .footer{
