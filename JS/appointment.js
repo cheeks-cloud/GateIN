@@ -1,13 +1,12 @@
 $(document).ready(function(){
   $('.radio').click(function(){
-    console.log($('input[name="gridRadios"]:checked').val())
     
       var valu= ($('input[name="gridRadios"]:checked').val());
       if (valu==='yes'){
-        $('.car').show();
+        $('#car').show();
       }
       else{
-        $('.car').hide();
+        $('#car').hide();
       }
       })
 
@@ -19,7 +18,25 @@ $(document).ready(function(){
         var timeOut=$('#timeOut').val()
         var car=$('#numberPlate').val()
         
+        localStorage.setItem('fullName',fname)
+        localStorage.setItem('Id',id)
+        localStorage.setItem('Dates',date)
+        localStorage.setItem('tIn',timeIn)
+        localStorage.setItem('tOut',timeOut)
+        localStorage.setItem('plate',car)
 
+        alert('Appointment Set')
+         
+        
+      })
+
+      $('#cancel').click(function(){
+        localStorage.removeItem(Id)
+        localStorage.removeItem(fullName)
+        localStorage.removeItem(Dates)
+        localStorage.removeItem(tIn)
+        localStorage.removeItem(tOut)
+        localStorage.removeItem(plate)
       })
 
 
