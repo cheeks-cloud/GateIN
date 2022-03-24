@@ -9,6 +9,7 @@ $(document).ready(function(){
         $('#car').hide();
       }
       })
+      
 
       $('#book').click(function(){
         var fname =$('#fullName').val()
@@ -17,6 +18,7 @@ $(document).ready(function(){
         var timeIn=$('#timeIn').val()
         var timeOut=$('#timeOut').val()
         var car=$('#numberPlate').val()
+
         
         localStorage.setItem('fullName',fname)
         localStorage.setItem('Id',id)
@@ -37,6 +39,8 @@ $(document).ready(function(){
         localStorage.removeItem(tIn)
         localStorage.removeItem(tOut)
         localStorage.removeItem(plate)
+
+        alert('Appointment cancelled')
       })
 
 
