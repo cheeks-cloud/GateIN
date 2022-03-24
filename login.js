@@ -16,6 +16,7 @@ function logIn() {
 		alert("Successfully logged in");
 		return true;
 	}
+}
 function login (e) {
     e.preventDefault()
 
