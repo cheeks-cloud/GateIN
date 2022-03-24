@@ -34,8 +34,11 @@ function signUp (e) {
 	function storeData (userInstance) {
 		if (window.localStorage) {
 			localStorage.setItem('user', JSON.stringify(userInstance))
+			alert(JSON.parse(localStorage.getItem('user')).pin)
+
+			window.location.replace('http://localhost:5501/login.html')
 		} else {
-			alert("Browser does't support localstorage")
+			alert("Browser doesn't support localstorage")
 		}
 	}
 	//call storedata funtion and pass the user object
