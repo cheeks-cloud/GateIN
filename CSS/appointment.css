@@ -3,7 +3,7 @@ body{
   color: antiquewhite;
 }
 
-.navbar,footer{
+.navbar{
   background-color:#50D284 ;
   padding-left: 30px;
   padding-right: 30px;
@@ -13,15 +13,17 @@ body{
   font-size: larger;
 }
 
-p{
-  border: #50D284;
-  border-width: 1%;
-  background-color: #50D284;
+.top{
   margin: 2%;
   text-align: center;
-  padding: 2%;
-  font-weight: bolder;
-  font-size: larger;
+  padding: 1%;
+  font-weight: 300;
+  font-size: x-large;
+  border: #50d284 2px solid;
+  background-color: #0f221f;
+  width: 58%;
+  margin-left: 20%;
+  border-radius: 4%;
 }
 
 .form-group{
@@ -32,7 +34,13 @@ p{
   margin-bottom: 2%;
 }
 
-.car{
+.form-control {
+  border: #50d284 2px solid;
+  background-color: #0f221f;
+  color: white;
+}
+
+#car{
   display: none;
 }
 
@@ -46,3 +54,25 @@ p{
   margin-left: 30%;
   margin-top: 2%;
 }
+
+.footer{
+  background-color: #50D284;
+  color: #0f221f;
+  position: absolute;
+  right: 0;bottom:0;left:0;
+ }
+
+ .info{
+   font-size: larger;
+   margin-bottom: 2%;
+   margin-left: 22%;
+
+ }
+ 
+ #cancel{
+  border: #50d284 2px solid;
+  background-color: #0f221f;
+ }
+ #cancel:hover{
+   color: white;
+ }
