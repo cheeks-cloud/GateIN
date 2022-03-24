@@ -12,6 +12,23 @@
     <link rel="stylesheet" href="register.css">
   </head>
   <body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+          <a href="#" class="navbar-brand">GateIN</a>
+          </a>
+          <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+              <div class="navbar-nav ms-auto ">
+                  <a href="#" class="nav-item nav-link active">Home</a>
+                  <a href="#" class="nav-item nav-link active">About Us</a>
+                  <a href="#" class="nav-item nav-link active">Contact</a>
+              </div>
+          </div>
+      </div>
+  </nav>
       
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
@@ -47,8 +64,6 @@
           <input type="number" name="idno" class="formStyle" id="idno" placeholder="Enter your ID number" required />
           <input type="text" name="vno" class="formStyle" id="vno" placeholder=" Enter your vehicle model & regisration no. " />
           <p style="color: aliceblue;">What is your gender?</p>
-          <input type="radio" name="gender" id="gender" value="male"> Male
-          <input type="radio" name="gender" id="gender"  value="female" > Female  <br><br>
           <div class="mb-3">
             <select class="form-select" id="select-gender" aria-label="Default select example">
               <option value="male">Male</option>
