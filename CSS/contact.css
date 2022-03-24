@@ -48,3 +48,13 @@ form{
 .in-touch {
   color: #50d284;
 }
+.last{
+  margin-left: 30%;
+  margin-bottom: 20px;
+  height: 100px;
+  width: 400px;
+  border: 2px solid #50d284;
+  background-color: #0f221f;
+  color: wheat;
+  display: none;
+}
