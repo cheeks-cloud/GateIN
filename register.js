@@ -45,17 +45,3 @@ function signUp (e) {
 
 
 
-
-// if (mail == "" || name == "" || pno == ""  || vno == "" || address == "" || idno == ""||gender == "" || dob == "" ) {
-// 	alert("Please fill the required fields")
-// 	return false;
-// }
-
-// else if (pno.length < 10) {
-// 	alert( "Your phone number must be 10 characters")
-// 	return false;
-// }
-// else {
-// 	alert("Successfully signed up");
-// 	return true;
-// }
