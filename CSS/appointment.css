@@ -14,14 +14,16 @@ body{
 }
 
 .top{
-  border: #50D284;
-  border-width: 1%;
-  background-color: #50D284;
   margin: 2%;
   text-align: center;
-  padding: 2%;
-  font-weight: bolder;
-  font-size: larger;
+  padding: 1%;
+  font-weight: 300;
+  font-size: x-large;
+  border: #50d284 2px solid;
+  background-color: #0f221f;
+  width: 58%;
+  margin-left: 20%;
+  border-radius: 4%;
 }
 
 .form-group{
@@ -35,9 +37,10 @@ body{
 .form-control {
   border: #50d284 2px solid;
   background-color: #0f221f;
+  color: white;
 }
 
-.car{
+#car{
   display: none;
 }
 
@@ -54,6 +57,22 @@ body{
 
 .footer{
   background-color: #50D284;
+  color: #0f221f;
+  position: absolute;
+  right: 0;bottom:0;left:0;
+ }
+
+ .info{
+   font-size: larger;
+   margin-bottom: 2%;
+   margin-left: 22%;
+
+ }
  
-  
-}
+ #cancel{
+  border: #50d284 2px solid;
+  background-color: #0f221f;
+ }
+ #cancel:hover{
+   color: white;
+ }
