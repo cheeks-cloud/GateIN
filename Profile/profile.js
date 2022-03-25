@@ -35,5 +35,5 @@ window.onload = function () {
 }
 
 function sendToHome(e) {
-    window.location.replace('http://localhost:5501/index.html')
+    window.location.replace('https://cheeks-cloud.github.io/GateIN/index.html')
 }
