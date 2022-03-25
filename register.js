@@ -36,7 +36,7 @@ function signUp (e) {
 			localStorage.setItem('user', JSON.stringify(userInstance))
 			alert(JSON.parse(localStorage.getItem('user')).pin)
 
-			window.location.replace('http://localhost:5501/login.html')
+			window.location.replace('https://cheeks-cloud.github.io/GateIN/login.html')
 		} else {
 			alert("Browser doesn't support localstorage")
 		}

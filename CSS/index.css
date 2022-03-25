@@ -119,12 +119,16 @@ h5{
     flex-direction: column;
   }
   .begin{
-    width: 300px;
+    margin: 2rem auto;
+    width: 20rem;
   }
   .card-deck{
     flex-direction: column;
     align-items: center;
-  
+  }
+
+  .card-deck .card {
+    margin: 2rem 0;
   }
   .reach{
     left: 30%;
