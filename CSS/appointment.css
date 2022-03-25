@@ -2,6 +2,14 @@ body{
   background-color: #021613F0;
   color: antiquewhite;
 }
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;   
+}
 
 .navbar{
   background-color:#50D284 ;
@@ -76,3 +84,7 @@ body{
  #cancel:hover{
    color: white;
  }
+
+ 
+
+ 
