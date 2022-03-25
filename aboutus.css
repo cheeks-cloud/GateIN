@@ -12,9 +12,6 @@
     color: white;
     
 }
-p{
-    font-size: small;
-}
 
 .navbar {
     background-color: #50D284;
@@ -38,27 +35,24 @@ p{
 }
 
 #how-to-image, #where-to-image{
-    float: right;  
+    float: right;   
     padding-bottom: 10px;
     padding-right: 10px;
     padding-left: 15px;  
 }
 
 #user-image{
-    float: left;     
+    float: left;    
     padding-bottom: 10px;
     padding-left: 10px;
     padding-right: 15px;
 }
 
 #how-to-text, #where-to-text, #user-text{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 30px;
-    padding-left:30px ;
+    padding: 20px;
 }
 
 .footer{
     background-color: #50d284;
-    font-size: smaller;
+    font-size: small;
 }

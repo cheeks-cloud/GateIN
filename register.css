@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
 body {
     background-color: #021613;
     font-family: "poppins";
@@ -66,7 +68,9 @@ body {
       position:relative;
       top:3px;
   }
-  
+  input[type='radio']:after{
+    color: wheat;
+  }
 
   input:focus {
     outline: none;
